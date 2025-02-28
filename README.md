@@ -25,6 +25,11 @@ Ao clonar este repositório, você encontrará apenas um exemplo básico de estr
 <ul> 
     <li><a href="#descricaoProjeto">Descrição do Projeto</a></li>
     <li><a href="#statusProjeto">Status do Projeto</a></li>
+    <li><a href="#Funcionalidades">Funcionalidades</a></li>
+    <li><a href="#PreRequisitos">Pré-Requisitos</a></li>
+    <li><a href="#Executar">Executar o Projeto</a></li>
+    <li><a href="#Mapa">Mapa do projeto</a></li>
+    <li><a href="#Tecnologias">Tecnologias utilizadas</a></li>
 </ul>
 
 <!--
@@ -36,5 +41,63 @@ Ao clonar este repositório, você encontrará apenas um exemplo básico de estr
 <h2 id="statusProjeto"> Status do projeto </h2>
 
 <h4 align="center">
-    Em construção :rocket:
+    Em construção 🚀
 </h4>
+
+<h2 id="Funcionalidades"> Funcionalidades </h2>
+
+- [X] README com Markdown
+- [X] README com HTML
+- [] Badge
+
+<H2 id="PreRequisitos"> Pré-requisitos </h2>
+
+- [VSCode](https://code.visualstudio.com/)
+- [GIT](https://git-scm.com/)
+
+<H2 id="Executar"> Executar o Projeto </h2>
+
+```bash
+
+# Clone do repositório
+git clone <path do repositório>
+
+# Acesse a pasta do projeto via terminal
+cd meu-projeto
+
+# Abrir o VSCode no <Path do repositório>
+code .
+
+# Configurar SSH
+
+ssh-keygen -t rsa -b 4096 -C "<Email github>"
+-(3 enters para gerar a chave)
+
+cat /c/Users/Anchieta/.ssh/id_rsa.pub
+
+# Clonar para o repositório
+git clone git@github.com:Kdoze/padrao-readme.git
+
+# Branch
+git branch
+
+git switch readme
+
+```
+
+<h2 id="Mapa"> Mapa do projeto </h2>
+
+```bash
++---img             // Contém as imagens do README
++---temp            // Pasta temp para gerar tree
+ª   +---temp-1      // Pasta temp para gerar tree
+ª   +---temp-2      // Pasta temp para gerar tree
++---temp copy       // Pasta temp para gerar tree
+    +---temp-1      // Pasta temp para gerar tree
+    +---temp-2      // Pasta temp para gerar tree
+```
+
+<h2 id="Tecnologias"> Tecnologias Utilizadas </h2>
+
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [MARKDOWN](https://www.markdownguide.org/)
